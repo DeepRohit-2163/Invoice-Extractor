@@ -71,20 +71,5 @@ project_folder/
       <li>Upload an invoice PDF, and follow the on-screen instructions.</li>
     </ol>
   </div>
-
-  <div class="section">
-    <h2>Notes</h2>
-    <ul>
-      <li>Customize styles, background images, and functionality as per project requirements.</li>
-      <li>Handle error scenarios such as invalid file uploads or API key issues gracefully in the application logic.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Credits</h2>
-    <ul>
-      <li>Developed using Flask, pdf2image, Google Generative AI (Gemini model), and Bootstrap for styling.</li>
-    </ul>
-  </div>
 </body>
 </html>
