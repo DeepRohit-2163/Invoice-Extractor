@@ -1,7 +1,6 @@
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+<body>
   <h1>Invoice PDF Processing Application</h1>
+
   <div class="section">
     <h2>Overview</h2>
     <p>This application allows you to upload invoice PDFs, extract information using Google Generative AI, and display results with a consistent background image.</p>
@@ -71,5 +70,7 @@ project_folder/
       <li>Upload an invoice PDF, and follow the on-screen instructions.</li>
     </ol>
   </div>
+![Screenshot 2024-06-21 225056](https://github.com/Deep2163-sgp/Invoice-Extractor/assets/117501864/c1f2fced-7bd2-4311-9de6-cbc01016a0dc)
+![Screenshot 2024-06-21 225132](https://github.com/Deep2163-sgp/Invoice-Extractor/assets/117501864/61cb16fd-c855-40a9-b002-ff044a0490a5)
 </body>
 </html>
