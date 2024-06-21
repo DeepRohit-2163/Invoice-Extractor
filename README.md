@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -120,14 +119,5 @@ project_folder/
       <li>Developed using Flask, pdf2image, Google Generative AI (Gemini model), and Bootstrap for styling.</li>
     </ul>
   </div>
-
-  <div class="section">
-    <h2>Support and Contact</h2>
-    <ul>
-      <li>Email: <a href="mailto:your_email@example.com">your_email@example.com</a></li>
-      <li>Website: <a href="http://www.example.com">www.example.com</a></li>
-    </ul>
-  </div>
-
 </body>
 </html>
