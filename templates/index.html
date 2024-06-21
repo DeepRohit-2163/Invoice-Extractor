@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Upload Invoice PDF</title>
+    <style>
+      body {
+        background-image: url('static/background.jpg'); /* Replace 'background.png' with your actual background PNG image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Ensure the background covers the entire viewport */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        max-width: 600px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-4">Upload Invoice PDF</h1>
+      <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="file" class="form-control-file" name="pdf">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Upload</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
