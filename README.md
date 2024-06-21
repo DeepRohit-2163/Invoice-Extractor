@@ -2,39 +2,6 @@
 <head>
   <meta charset="utf-8">
   <title>Invoice PDF Processing Application</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    code {
-      background-color: #f5f5f5;
-      padding: 2px 4px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-family: Consolas, monospace;
-    }
-    pre {
-      background-color: #f5f5f5;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      overflow-x: auto;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-  </style>
-</head>
-<body>
-  <h1>Invoice PDF Processing Application</h1>
-
   <div class="section">
     <h2>Overview</h2>
     <p>This application allows you to upload invoice PDFs, extract information using Google Generative AI, and display results with a consistent background image.</p>
