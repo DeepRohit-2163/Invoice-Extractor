@@ -70,7 +70,5 @@ project_folder/
       <li>Upload an invoice PDF, and follow the on-screen instructions.</li>
     </ol>
   </div>
-![Screenshot 2024-06-21 225056](https://github.com/Deep2163-sgp/Invoice-Extractor/assets/117501864/c1f2fced-7bd2-4311-9de6-cbc01016a0dc)
-![Screenshot 2024-06-21 225132](https://github.com/Deep2163-sgp/Invoice-Extractor/assets/117501864/61cb16fd-c855-40a9-b002-ff044a0490a5)
 </body>
 </html>
