@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Invoice PDF Processing Application</title>
+  <h1>Invoice PDF Processing Application</h1>
   <div class="section">
     <h2>Overview</h2>
     <p>This application allows you to upload invoice PDFs, extract information using Google Generative AI, and display results with a consistent background image.</p>
