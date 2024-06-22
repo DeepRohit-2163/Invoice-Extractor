@@ -1,4 +1,5 @@
-<body>
+<html lang="en">
+<head>
   <h1>Invoice PDF Processing Application</h1>
 
   <div class="section">
@@ -20,8 +21,8 @@
     <h2>Prerequisites</h2>
     <ul>
       <li>Python 3.6 or higher</li>
-      <li>Flask (`pip install Flask`)</li>
-      <li>pdf2image (`pip install pdf2image`)</li>
+      <li>Flask (<code>pip install Flask</code>)</li>
+      <li>pdf2image (<code>pip install pdf2image</code>)</li>
       <li>Google Generative AI API key (for Gemini model)</li>
       <li>Poppler for PDF processing (poppler or poppler-utils)</li>
     </ul>
@@ -57,14 +58,20 @@ project_folder/
         </ul>
       </li>
       <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
-      <li>Create a `.env` file and add your Google Generative AI API key: <code>GOOGLE_API_KEY=your_api_key</code></li>
-      <li>Ensure Poppler is installed and set the path in `app.py` for PDF processing.</li>
+      <li>Create a <code>.env</code> file and add your Google Generative AI API key: <code>GOOGLE_API_KEY=your_api_key</code></li>
+      <li>Ensure Poppler is installed and set the path in <code>app.py</code> for PDF processing.</li>
     </ol>
   </div>
 
   <div class="section">
     <h2>Running the Application</h2>
     <ol>
+      <li>Activate the virtual environment:
+        <ul>
+          <li>Windows: <code>venv\Scripts\activate</code></li>
+          <li>Unix or MacOS: <code>source venv/bin/activate</code></li>
+        </ul>
+      </li>
       <li>Run the Flask application: <code>python app.py</code></li>
       <li>Open your web browser and go to: <code>http://127.0.0.1:5000/</code></li>
       <li>Upload an invoice PDF, and follow the on-screen instructions.</li>
